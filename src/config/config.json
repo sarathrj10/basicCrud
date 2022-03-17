@@ -1,0 +1,26 @@
+{
+  "stagging": {
+    "server": {
+      "host": "",
+      "port": ""
+    },
+    "database": {
+      "dbURI": ""
+    },
+    "jwt": {
+      "secretKey": "8VeyVSsdODkIaMHP4k1SP6USXHB4AaKY"
+    }
+  },
+  "development": {
+    "server": {
+      "host": "localhost",
+      "port": "5001"
+    },
+    "database": {
+      "dbURI": "mongodb+srv://sarath:785648@cluster0.v4zp4.mongodb.net/basicCrud?retryWrites=true&w=majority"
+    },
+    "jwt": {
+      "secretKey": "8VeyVSsdODkIaMHP4k1SP6USXHB4AaKY"
+    }
+  }
+}
